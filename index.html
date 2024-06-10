@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="jankenpon.css">
+</head>
+
+<body>
+    <header>
+        <h1 onclick="reset()"> Rock Paper Scissors</h1>
+    </header>
+    <section class="score_board">
+        <div class="badge" id="comp_label">Computer</div>
+        <div class="badge" id="user_label">User</div>
+        <span id="user_score">0</span>:<span id="computer_score">0</span>
+    </section>
+    <div class="result">
+        <p id="round_result"></p>
+        <p id="result_text">To begin, choose one from, rock paper or scissors</p>
+    </div>
+    <div class="choices">
+        <div class="choice" id="rock">
+            <img alt="rock" src="https://tejeshwer25.github.io/Rock_Paper_scissors/images/rock.png">
+        </div>
+        <div class="choice" id="paper">
+            <img alt="paper" src="https://tejeshwer25.github.io/Rock_Paper_scissors/images/paper.png">
+        </div>
+        <div class="choice" id="scissor">
+            <img alt="scissor" src="https://tejeshwer25.github.io/Rock_Paper_scissors/images/scissor.png">
+        </div>
+    </div>
+    <br><br>
+    <div class="events">
+        <div class="choiced">
+            You chose :<br> <span class="play" id="userplay"></span>
+        </div>
+        <div class="choiced">
+            Computer chose :<br> <span class="play" id="computerplay"></span>
+        </div>
+    </div>
+    <div class="action_text">
+        The game ends when you get bored, or sick of losing...
+    </div>
+    <script src="jankenpon.js">
+    </script>
+</body>
+
+</html>
