@@ -10,7 +10,7 @@ header {
     text-align: center;
     font-size: 1.3rem;
     font-weight: bold;
-    background-color: white;
+    background-color: rgb(255, 207, 216);
     color: blue;
 }
 
@@ -159,4 +159,22 @@ body {
         padding: 1.5rem 0rem;
         transition: all 0.5s ease-in-out;
     }
+}
+
+
+footer {
+    text-align: center;
+    color: aliceblue;
+    background-color: rgb(255, 207, 216);
+}
+
+.compil{
+    color: white;
+    font-style: italic;
+    text-decoration: none; /* Remove underline */
+}
+
+a:visited {
+    color: white;
+    text-decoration: dashed;
 }
